@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.services .content {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.services .content .heading-1 {
+  font-size: 3rem;
+  color: #000;
+  padding: 0.7rem;
+  font-weight: bold;
+}
+
+.services .box-container {
+  padding-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.services .box-container .box {
+  flex: 1 1 32rem;
+  padding: 4rem 0;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.services .box-container .box .icons {
+  display: flex;
+  justify-content: center;
+}
+
+.services .box-container .box .icons i {
+  font-size: 4.5rem;
+  color: #319da0;
+  right: 0;
+  left: 0;
+}
+
+.services .box-container .box .content-1 {
+  padding-top: 2.5rem;
+}
+
+.services .box-container .box .content-1 h2 {
+  font-size: 2.1rem;
+  color: var(--blue);
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.services .box-container .box .content-1 p {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  color: #808080;
+  line-height: 1.7;
+}
+
+
+
+.services .box-container .box:hover,
+.team .box-container .box:hover {
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.07);
+  transform: scale(1.02);
+  transition: all 0.1s linear 0s;
+}

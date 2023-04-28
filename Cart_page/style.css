@@ -1,0 +1,120 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: black !important;
+}
+
+.cart {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  box-shadow: 2px 2px 4px #ddd;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-top: 100px;
+  border-radius: 15px;
+}
+.cart_item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.image img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+.image,
+.amount,
+.total,
+.action {
+  flex: 1;
+  margin-left: 15px;
+}
+.Product_name p {
+  font-size: 20px;
+}
+.action i,
+button {
+  cursor: pointer;
+}
+.price {
+  flex: 2;
+}
+.Product_name {
+  flex: 3;
+}
+
+.price .new_price {
+  font-size: 20px;
+}
+.unit_new {
+  font-size: 20px;
+}
+
+.quantity {
+  flex: 1;
+  display: flex;
+  padding: 0 auto;
+}
+
+.quantity label {
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.quantity button {
+  width: 20px;
+  height: 20px;
+}
+.amount {
+  padding: 5px;
+  border: 1px solid #ddd;
+  outline: none;
+  border-radius: 5px;
+  width: 75%;
+}
+.total span {
+  font-size: 20px;
+}
+
+.total_ {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin: 20px 10% 20px 70%;
+  padding: 10px;
+}
+
+.total_ p {
+  font-size: 25px;
+}
+
+@media (min-width: 576px) {
+  .cart {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .cart {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .cart {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cart {
+    max-width: 1230px;
+  }
+}

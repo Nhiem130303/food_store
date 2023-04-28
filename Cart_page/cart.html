@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart</title>
+  <link rel="icon" href="../images/others/procurement.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="media.css" />
+
+  <link rel="stylesheet" href="../Home/style.css" />
+  <link rel="stylesheet" href="../Home/media.css" />
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-1">
+      <a href="../Home/index.html" class="logo"><img src="../images/others/logo3.png" alt="" /></a>
+    </div>
+  </header>
+
+  <div class="cart">
+    <div class="cart_item">
+      <div class="image">
+        <img src="../images/fruits/banana.png" alt="" />
+      </div>
+      <div class="Product_name">
+        <p>Banana</p>
+      </div>
+      <div class="price" style="display: flex; gap: 5px; align-items: center">
+        <span class="new_price">5</span>
+        <span class="unit_new">$</span>
+      </div>
+      <div class="quantity">
+        <button id="decrease1">-</button>
+        <label id="labelText1">1</label>
+        <button id="increase1">+</button>
+      </div>
+      <div class="total">
+        <div class="result" style="display: flex; gap: 5px; align-items: center">
+          <span id="total-1">5</span>
+          <span class="unit_new">$</span>
+        </div>
+      </div>
+      <div class="action" id="delete-1">
+        <i class="fas fa-trash-alt"></i>
+      </div>
+    </div>
+
+    <div class="cart_item">
+      <div class="image">
+        <img src="../images/vegetables/onion.png" alt="" />
+      </div>
+      <div class="Product_name">
+        <p>Onion</p>
+      </div>
+      <div class="price" style="display: flex; gap: 5px; align-items: center">
+        <span class="new_price">9</span>
+        <span class="unit_new">$</span>
+      </div>
+      <div class="quantity">
+        <button id="decrease2">-</button>
+        <label id="labelText2">1</label>
+        <button id="increase2">+</button>
+      </div>
+      <div class="total">
+        <div class="result" style="display: flex; gap: 5px; align-items: center">
+          <span id="total-2">9</span>
+          <span class="unit_new">$</span>
+        </div>
+      </div>
+      <div class="action" id="delete-2">
+        <i class="fas fa-trash-alt"></i>
+      </div>
+    </div>
+
+    <div class="cart_item">
+      <div class="image">
+        <img src="../images/drinks/rockstar.png" alt="" />
+      </div>
+      <div class="Product_name">
+        <p>Rockstar</p>
+      </div>
+      <div class="price" style="display: flex; gap: 5px; align-items: center">
+        <span class="new_price">4</span>
+        <span class="unit_new">$</span>
+      </div>
+      <div class="quantity">
+        <button id="decrease3">-</button>
+        <label id="labelText3">1</label>
+        <button id="increase3">+</button>
+      </div>
+      <div class="total">
+        <div class="result" style="display: flex; gap: 5px; align-items: center">
+          <span id="total-3">4</span>
+          <span class="unit_new">$</span>
+        </div>
+      </div>
+      <div class="action" id="delete-3">
+        <i class="fas fa-trash-alt"></i>
+      </div>
+    </div>
+
+    <div class="total_">
+      <p>Total:</p>
+      <div class="result" style="display: flex; gap: 5px; align-items: center">
+        <p id="total-all">18</p>
+        <span class="unit_new">$</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

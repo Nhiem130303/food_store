@@ -1,0 +1,68 @@
+
+.shop-product {
+  padding-top: 5rem;
+}
+
+.box-container .left-col {
+  margin-right: 2rem;
+}
+
+.box-container .left-col .box {
+  padding-top: 2rem;
+}
+
+.box-container .left-col .left-col-1 {
+  padding-top: 5rem;
+}
+
+.box-container .left-col .left-col-1 .check {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.box-container .left-col .left-col-1 .check i {
+  font-size: 2.5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  color: var(--orange);
+}
+
+.box-container .left-col .left-col-1 .check a {
+  background: none;
+  font-size: 1.7rem;
+  border: none;
+  padding: 0.5rem;
+  margin: 0;
+  color: #000;
+  font-weight: 600;
+}
+
+.box-container .left-col .left-col-1 .check:hover a {
+  color: var(--orange);
+  letter-spacing: 1px;
+}
+
+.box-container .right-col .right-col-3 .product {
+  padding: 0;
+}
+
+.box-container .right-col .right-col-3 .product .box-container .box {
+  flex: 1 1 22rem;
+}
+
+.box-container .right-col .right-col-3 .product .box-container .box img {
+  width: 18rem;
+}
+
+.footer .box-container {
+  padding-top: 2rem;
+}
+
+/***********************************/
+.type {
+  width: 100%;
+  text-align: center;
+  font-size: 400%;
+  color: orange;
+}
